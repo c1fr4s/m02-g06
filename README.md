@@ -1,4 +1,4 @@
-# m02-g19
+# m02-g06
 repositorio ayudantia 6 por nicolas cifras
 Nicolás Cifras
 Florencia Menares
