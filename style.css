@@ -2,7 +2,9 @@ body {background-image: url(https://instrumentosdemedicion.org/wp-content/upload
 background-repeat: no-repeat;
 background-size: cover;}
 
-header {background-color: #B6CEF0;}
+header {
+				background-color: #B6CEF0;
+			}
 
 nav {background-color: #D5E1F4;}
 
@@ -13,42 +15,64 @@ margin: 10px;}
 
 article {background-color: #A5B1BD;}
 
-aside {display: relative;
-width: 250px;
-height: 250px;
-background-color: #D7D5F4;
-float: right;
-padding: 15px;
-font-family: sans-serif;}
+aside {
+			display: relative;
+			width: 250px;
+			height: 250px;
+			background-color: #D7D5F4;
+			float: right;
+			padding: 15px;
+			font-family: sans-serif;}
 
-#contenedor {width: 1000px;
-padding: 20px 0 px;
-margin: 0px;
-background: #E6ECF0;
-margin: 0 auto;
-float: center; 
-font-family: sans-serif;}
+#contenedor {
+						width: 1000px;
+						padding: 20px 0 px;
+						margin: 0px;
+						background: #E6ECF0;
+						margin: 0 auto;
+						float: center; 
+						font-family: sans-serif;
+					}
+.indice {
+					width: 1000px;
+					height: 100px;
+					position: relative;}
+.subindice {
+						position: absolute;
+						display: inline-block;
+						margin: 20px;
+}
+#iautor {
+					margin: 10px;
+					position: absolute;
+					left: 40px;
 
+}
+#iaproyecto {
+					margin: 10px;
+					position: absolute;
+					left: 300px;
+
+}
+#ireferencias {
+					margin: 10px;
+					position: absolute;
+					left: 650px;
+}
 #título {
-margin: 10px;}
+				margin: 10px;
+			}
 
 #autor {
-margin: 10px;}
+				margin: 10px;
+			}
 
-#resumen {
-margin: 10px;}
+
 
 #autor {
-margin: 10px;}
+				margin: 10px;
+				}
 
-#diversidad {
-margin: 10px;}
-
-#necesidad {
-margin: 10px;}
-
-#evolucion {
-margin: 10px;}
 
 #referencias {
 margin: 10px;
