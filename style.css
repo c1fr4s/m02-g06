@@ -1,13 +1,13 @@
 body {background-image: url(https://instrumentosdemedicion.org/wp-content/uploads/2021/04/engranaje.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-font-family: Sister Spray;}
+}
 
 header {
 				background-color: #B6CEF0;
 			}
 
-nav {background-color: black;}
+nav {background-color: blue;}
 
 #grande {width: 960px;}
 
@@ -25,6 +25,7 @@ aside {
 			padding: 15px;
 			font-family: sans-serif;}
 
+
 #contenedor {
 						width: 1000px;
 						padding: 20px 0 px;
@@ -37,30 +38,34 @@ aside {
 .indice {
 					width: 1000px;
 					height: 100px;
-					position: relative;}
+					position: relative;
+					color: #FF006E}
 .subindice {
 						position: absolute;
 						display: inline-block;
 						margin: 20px;
-						font-family: Sister Spray;
+						font-family: 'Sedgwick Ave', cursive;
+						font-size: 20px;
+						background-color: black;
+						padding: 20PX	;
 }
-#iautor {	padding: 20px;
-					margin: 10px;
+	
+#iautor {margin: 10px;
 					position: absolute;
 					left: 40px;
-				
+					
 }
 #iaproyecto {
 					margin: 10px;
 					position: absolute;
 					left: 300px;
-					padding: 20px;
+					
 }
 #ireferencias {
 					margin: 10px;
 					position: absolute;
 					left: 650px;
-					padding: 20px;
+			
 }
 #título {
 				margin: 10px;
@@ -80,3 +85,10 @@ aside {
 #referencias {
 margin: 10px;
 background-color: #D6DCE5;}
+
+a:link {
+  color: #FF006E
+}
+a:visited {
+	color:#FF006E
+}
