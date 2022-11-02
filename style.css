@@ -1,30 +1,49 @@
-body {background-image: url(https://instrumentosdemedicion.org/wp-content/uploads/2021/04/engranaje.jpg);
+body{
+
+background-image: url(https://i.pinimg.com/564x/52/0c/55/520c555d36ddad29e426fe2f2a410370.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 header {
-				background-color: #B6CEF0;
+	padding: 2px;
+				background-color: black;
+				font-family: 'Sedgwick Ave', cursive;
+				color: white;
 			}
 
 nav {background-color: blue;}
 
 #grande {width: 960px;}
 
-section {background-color: #D3DDE9;
-margin: 10px;}
+section {background-color: black;
+margin: 10px;
+color: white;}
+
+.autores{
+font-family: 'Sedgwick Ave', cursive;
+position: absolute;
+top: 34%;
+left: 15%;
+}
+
 
 article {background-color: #A5B1BD;}
 
 aside {
 			display: relative;
-			width: 250px;
-			height: 250px;
-			background-color: #D7D5F4;
+			width: 90px;
+			height: 650px;
+			background-color: #FF006E;
 			float: right;
-			padding: 15px;
-			font-family: sans-serif;}
-
+			padding: 20px;
+			font-family: sans-serif;
+			position: absolute;
+			right: 2%;
+			border: 5px hidden #1C6EA4;
+border-radius: 15px 15px 15px 15px;
+		
+}
 
 #contenedor {
 						width: 1000px;
@@ -35,11 +54,23 @@ aside {
 						float: center; 
 						font-family: sans-serif;
 					}
+
+				
 .indice {
 					width: 1000px;
 					height: 100px;
 					position: relative;
+					background-color:#FF006E ;
+
 					color: #FF006E}
+.indi{
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 10%;
+}
+
 .subindice {
 						position: absolute;
 						display: inline-block;
@@ -50,21 +81,39 @@ aside {
 						padding: 20PX	;
 }
 	
-#iautor {margin: 10px;
+#iautor {margin: 7px;
+	padding: 12px ;
+	        padding-right: 25px;
+	        padding-left: 25px;
 					position: absolute;
-					left: 40px;
+					left: 15%;
+					top: 16%;
+					border: 5px hidden #1C6EA4;
+border-radius: 15px 15px 15px 15px;
 					
 }
 #iaproyecto {
-					margin: 10px;
+	        padding: 12px ;
+	        padding-right: 25px;
+	        padding-left: 25px;
+					margin: 7px;
 					position: absolute;
-					left: 300px;
+					left: 45%;
+					top: 16%;
+					border: 5px hidden #1C6EA4;
+border-radius: 15px 15px 15px 15px;
 					
 }
 #ireferencias {
-					margin: 10px;
+					margin: 7px;
+					padding: 12px ;
+	        padding-right: 25px;
+	        padding-left: 25px;
 					position: absolute;
-					left: 650px;
+					left: 75%;
+					top: 16%;
+					border: 5px hidden #1C6EA4;
+border-radius: 15px 15px 15px 15px;
 			
 }
 #título {
@@ -73,6 +122,7 @@ aside {
 
 #autor {
 				margin: 10px;
+				
 			}
 
 
