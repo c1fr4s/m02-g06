@@ -25,19 +25,19 @@ height: 500px;}
 font-family: 'Sedgwick Ave', cursive;
 position: absolute;
 font-size: 30px;
-top: 32%;
-left: 45%;
+top: 220px;
+left: 600px;
 }
 .fotoa1{
 	position: absolute;
-	top: 50%;
-	left: 20%;
+	top: 350px;
+	left: 265px;
 }
 .infoa1{
 	position: absolute;
-	top: 50%;
-	left: 35%;
-	right: 20%;
+	top: 330px;
+	left: 470px;
+	right: 272px;
 	border: 5px solid #FF006E;
 border-radius: 15px;
 padding: 10px;
@@ -45,34 +45,94 @@ padding: 10px;
 
 .fotoa2{
 position: absolute;
-top: 93%;
-right: 20%;
+top:610px;
+right:272px;
 }
 .infoa2{
 position: absolute;
-top: 90%;
-left: 20%;
-right: 35%;
+top: 592px;
+left: 265px;
+right: 478px;
 border: 5px solid #FF006E;
 border-radius: 15px;
 padding: 10px;
 }
+.articulo{
+	font-family: 'Sedgwick Ave', cursive;
+						font-size: 30px;
+						color: white;
+						position: absolute;
+						top: 870px;
+						left: 600px;
+}
+.esquema2{
+	position: absolute;
+	top: 870PX;
+	left: 190PX;
+}
+.linea{
+	background-color: #FF006E;
+	padding-left: 400px;
+	padding-right: 500px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	position: absolute;
+	top: 1210px;
+	left: 230px;
+}
+
 .fotoa3{
 	position: absolute;
-	top: 215%;
-	left: 18%;
+	top: 1415px;
+	left: 265px;
 }
 .infoa3{
 	position: absolute;
-	top: 210%;
-	left: 35%;
-	right: 19%;
+	top: 1390px;
+	left: 500px;
+	right: 250px;
 	border: 5px solid #FF006E;
 border-radius: 15px;
 padding: 10px;
 
 }
 
+.proyecto{
+	font-family: 'Sedgwick Ave', cursive;
+						font-size: 30px;
+						color: white;
+						position: absolute;
+						top: 1270px;
+						left: 270px;
+}
+.aproyecto{
+		font-family: 'Sedgwick Ave', cursive;
+						font-size: 25px;
+						color: white;
+						position: absolute;
+						top: 1350px;
+						left: 500px;
+}
+.consiste{
+	font-family: 'Sedgwick Ave', cursive;
+						font-size: 30px;
+						color: white;
+						position: absolute;
+						top: 1720px;
+						left: 555px;
+}
+.lasertag{
+		
+						font-size: 20px;
+						color: white;
+						position: absolute;
+						top: 1775px;
+						left: 265px;
+						right: 250px;
+						border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;
+}
 article {background-color: #A5B1BD;}
 
 aside {
@@ -84,7 +144,7 @@ aside {
 			padding: 20px;
 			font-family: sans-serif;
 			position: relative;
-			right: 2%;
+			right: 30px;
 			border: 5px hidden #1C6EA4;
 border-radius: 15px 15px 15px 15px;
 border: 5px solid black;
@@ -95,20 +155,20 @@ border-radius: 15px;
 	
 	float: left;
 	position: absolute;
-	top: 1%;
-	left:2%;
+	top: 10px;
+	left:30px;
 border: 5px solid #000000;
 }
 .lado2{
 	position: absolute;
-	top: 150%;
-	left:2%;
+	top: 1200px;
+	left:30px;
 	border: 5px solid #000000;
 }
 .lado3{
 	position: absolute;
-	top: 300%;
-	left:2%;
+	top: 2000px;
+	left:30px;
 	border: 5px solid #000000;
 }
 .link{
@@ -116,8 +176,8 @@ border: 5px solid #000000;
 	color: rebeccapurple;
 	background-color: black;
 	position: absolute;
-	top: 145%;
-	right: 3.2%;
+	top: 1055px;
+	right: 44px	;
 	font-family:sans-serif;
 	font-size: 16px;
 	padding: 10px;
@@ -148,7 +208,7 @@ border-radius: 15px 15px 15px 15px;
 	font-size: 20px;
 	color: black;
 	position: absolute;
-	top: 10%;
+	top: 15px;
 }
 
 .subindice {
@@ -166,10 +226,10 @@ border-radius: 15px 15px 15px 15px;
 	        padding-right: 25px;
 	        padding-left: 25px;
 					position: absolute;
-					left: 15%;
-					top: 16%;
+					left: 150px;
+					top: 20px;
 					border: 5px hidden #1C6EA4;
-border-radius: 15px 15px 15px 15px;
+border-radius: 15px;
 					
 }
 .fa-solid-fa-book-open{
@@ -184,7 +244,7 @@ border-radius: 15px 15px 15px 15px;
 					left: 45%;
 					top: 16%;
 					border: 5px hidden #1C6EA4;
-border-radius: 15px 15px 15px 15px;
+border-radius: 15px;
 					
 }
 #ireferencias {
@@ -196,7 +256,7 @@ border-radius: 15px 15px 15px 15px;
 					left: 75%;
 					top: 16%;
 					border: 5px hidden #1C6EA4;
-border-radius: 15px 15px 15px 15px;
+border-radius: 15px ;
 			
 }
 #título {
@@ -208,8 +268,8 @@ margin: 10px;
 top: 400%;
 position: absolute;
 background-color: white;
-left: 20%;
-right: 20%;
+left: 300px;
+right: 240px;
 padding-left: 30px;
 padding-right: 30px;
 padding-bottom: 30px;
@@ -230,64 +290,5 @@ a:visited {
 background-color: black;
 margin: 10px;
 color: white;
-height: 3340px;}
-
-.articulo{
-	font-family: 'Sedgwick Ave', cursive;
-						font-size: 30px;
-						color: white;
-						position: absolute;
-						top: 135%;
-						left: 45%;
-}
-.esquema2{
-	position: absolute;
-	top: 130%;
-	left: 15%;
-}
-.linea{
-	background-color: #FF006E;
-	padding-left: 400px;
-	padding-right: 500px;
-	padding-bottom: 2px;
-	padding-top: 2px;
-	position: absolute;
-	top: 185%;
-	left: 20%;
-}
-.proyecto{
-	font-family: 'Sedgwick Ave', cursive;
-						font-size: 30px;
-						color: white;
-						position: absolute;
-						top: 190%;
-						left: 21%;
-}
-.aproyecto{
-		font-family: 'Sedgwick Ave', cursive;
-						font-size: 25px;
-						color: white;
-						position: absolute;
-						top: 205%;
-						left: 35%;
-}
-.consiste{
-	font-family: 'Sedgwick Ave', cursive;
-						font-size: 30px;
-						color: white;
-						position: absolute;
-						top: 260%;
-						left: 40%;
-}
-.lasertag{
-		
-						font-size: 20px;
-						color: white;
-						position: absolute;
-						top: 270%;
-						left: 20%;
-						right: 20%;
-						border: 5px solid #FF006E;
-border-radius: 15px;
-padding: 10px;
-}
+height: 3000px;
+width: 990px;}
