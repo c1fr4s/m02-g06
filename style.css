@@ -59,12 +59,12 @@ padding: 10px;
 }
 .fotoa3{
 	position: absolute;
-	top: 135%;
+	top: 215%;
 	left: 18%;
 }
 .infoa3{
 	position: absolute;
-	top: 130%;
+	top: 210%;
 	left: 35%;
 	right: 19%;
 	border: 5px solid #FF006E;
@@ -116,10 +116,13 @@ border: 5px solid #000000;
 	color: rebeccapurple;
 	background-color: black;
 	position: absolute;
-	top: 137%;
-	right: 3.5%;
+	top: 145%;
+	right: 3.2%;
 	font-family:sans-serif;
 	font-size: 16px;
+	padding: 10px;
+	border: 5px hidden #1C6EA4;
+border-radius: 15px 15px 15px 15px;
 }
 
 #contenedor {
@@ -200,11 +203,22 @@ border-radius: 15px 15px 15px 15px;
 				margin: 10px;
 			}
 
-#referencias {
+.referencias {
 margin: 10px;
-top: 200%;
+top: 400%;
 position: absolute;
-background-color: #D6DCE5;}
+background-color: white;
+left: 20%;
+right: 20%;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+border: 5px hidden #1C6EA4;
+border-radius: 15px 15px 15px 15px;
+border: 5px solid #FF006E;
+border-radius: 15px;
+
+}
 
 a:link {
   color: #FF006E
@@ -217,3 +231,63 @@ background-color: black;
 margin: 10px;
 color: white;
 height: 3340px;}
+
+.articulo{
+	font-family: 'Sedgwick Ave', cursive;
+						font-size: 30px;
+						color: white;
+						position: absolute;
+						top: 135%;
+						left: 45%;
+}
+.esquema2{
+	position: absolute;
+	top: 130%;
+	left: 15%;
+}
+.linea{
+	background-color: #FF006E;
+	padding-left: 400px;
+	padding-right: 500px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	position: absolute;
+	top: 185%;
+	left: 20%;
+}
+.proyecto{
+	font-family: 'Sedgwick Ave', cursive;
+						font-size: 30px;
+						color: white;
+						position: absolute;
+						top: 190%;
+						left: 21%;
+}
+.aproyecto{
+		font-family: 'Sedgwick Ave', cursive;
+						font-size: 25px;
+						color: white;
+						position: absolute;
+						top: 205%;
+						left: 35%;
+}
+.consiste{
+	font-family: 'Sedgwick Ave', cursive;
+						font-size: 30px;
+						color: white;
+						position: absolute;
+						top: 260%;
+						left: 40%;
+}
+.lasertag{
+		
+						font-size: 20px;
+						color: white;
+						position: absolute;
+						top: 270%;
+						left: 20%;
+						right: 20%;
+						border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;
+}
