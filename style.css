@@ -1,250 +1,135 @@
-body{
-
-background-color: #3A86FF;
-background-repeat: no-repeat;
-background-size: cover;
-}
+body {background-color:#3A86FF;
+	color: white;
+background-size: cover;}
 
 header {
-	padding: 2px;
-				background-color: black;
-				font-family: 'Sedgwick Ave', cursive;
-				color: white;
-			}
-
-nav {background-color: blue;}
-
-#grande {width: 960px;}
-
-section {background-color: black;
-margin: 10px;
-color: white;
-height: 500px;}
-
-.autores{
-font-family: 'Sedgwick Ave', cursive;
-position: absolute;
-font-size: 30px;
-top: 220px;
-left: 600px;
-}
-.fotoa1{
-	position: absolute;
-	top: 350px;
-	left: 265px;
-}
-.infoa1{
-	position: absolute;
-	top: 330px;
-	left: 470px;
-	right: 272px;
-	border: 5px solid #FF006E;
-border-radius: 15px;
-padding: 10px;
-}
-
-.fotoa2{
-position: absolute;
-top:610px;
-right:272px;
-}
-.infoa2{
-position: absolute;
-top: 592px;
-left: 265px;
-right: 478px;
-border: 5px solid #FF006E;
-border-radius: 15px;
-padding: 10px;
-}
-.articulo{
-	font-family: 'Sedgwick Ave', cursive;
-						font-size: 30px;
-						color: white;
-						position: absolute;
-						top: 870px;
-						left: 600px;
-}
-.esquema2{
-	position: absolute;
-	top: 870PX;
-	left: 190PX;
-}
-.linea{
-	background-color: #FF006E;
-	padding-left: 400px;
-	padding-right: 500px;
-	padding-bottom: 2px;
-	padding-top: 2px;
-	position: absolute;
-	top: 1210px;
-	left: 230px;
-}
-
-.fotoa3{
-	position: absolute;
-	top: 1415px;
-	left: 265px;
-}
-.infoa3{
-	position: absolute;
-	top: 1390px;
-	left: 500px;
-	right: 250px;
-	border: 5px solid #FF006E;
-border-radius: 15px;
-padding: 10px;
-
-}
-
-.proyecto{
-	font-family: 'Sedgwick Ave', cursive;
-						font-size: 30px;
-						color: white;
-						position: absolute;
-						top: 1270px;
-						left: 270px;
-}
-.aproyecto{
-		font-family: 'Sedgwick Ave', cursive;
-						font-size: 25px;
-						color: white;
-						position: absolute;
-						top: 1350px;
-						left: 500px;
-}
-.consiste{
-	font-family: 'Sedgwick Ave', cursive;
-						font-size: 30px;
-						color: white;
-						position: absolute;
-						top: 1720px;
-						left: 555px;
-}
-.lasertag{
-		
-						font-size: 20px;
-						color: white;
-						position: absolute;
-						top: 1775px;
-						left: 265px;
-						right: 250px;
-						border: 5px solid #FF006E;
-border-radius: 15px;
-padding: 10px;
-}
-article {background-color: #A5B1BD;}
-
+background-color: black;
+font-family: 'Sedgwick Ave', cursive}
 aside {
 			display: relative;
-			width: 110px;
+			width: 120px;
 			height: 1070px;
 			background-color: #FF006E;
 			float: right;
 			padding: 20px;
 			font-family: sans-serif;
 			position: relative;
-			right: 30px;
-			border: 5px hidden #1C6EA4;
-border-radius: 15px 15px 15px 15px;
-border: 5px solid black;
-border-radius: 15px;
-		
-}
-.lado{
-	
-	float: left;
-	position: absolute;
-	top: 10px;
-	left:30px;
-border: 5px solid #000000;
-}
-.lado2{
-	position: absolute;
-	top: 1200px;
-	left:30px;
-	border: 5px solid #000000;
-}
-.lado3{
-	position: absolute;
-	top: 2000px;
-	left:30px;
-	border: 5px solid #000000;
-}
-.link{
-	font-size: 20px;
-	color: rebeccapurple;
-	background-color: black;
-	position: absolute;
-	top: 1055px;
-	right: 44px	;
-	font-family:sans-serif;
-	font-size: 16px;
-	padding: 10px;
-	border: 5px hidden #1C6EA4;
-border-radius: 15px 15px 15px 15px;
-}
+			right: -5px; border: 5px hidden #1C6EA4;
+			border-radius: 15px 15px 15px 15px;
+			border: 5px solid black;
+			border-radius: 15px;
+		}
+
 
 #contenedor {
-						width: 1000px;
-						padding: 20px 0 px;
-						margin: 0px;
-						background: #E6ECF0;
-						margin: 0 auto;
-						float: center; 
-						font-family: sans-serif;
-					}
+position: relative;
+width: 1000px;
+height: 4000PX;
+padding: 20px 0 px;
+margin: 0px;
+background: black;
+margin: 0 auto;
+float: center; 
+font-family: sans-serif;
+}
 
-				
-.indice {
-					width: 1000px;
-					height: 100px;
-					position: relative;
-					background-color:#FF006E ;
+.lado{
+position: absolute;
+left: -150px;
+}
+#dos{
+	position: absolute;
+	top: 1200px;
+}
 
-					color: #FF006E}
+#tres{
+	position: absolute;
+	top: 2400px;
+}
+#cuatro{
+	position: absolute;
+	top: 3600px;
+}
 .indi{
 	font-family: 'Sedgwick Ave', cursive;
 	font-size: 20px;
 	color: black;
 	position: absolute;
-	top: 15px;
+	top: 80px;
+	height: 100px;
+	width: 1000px;
+	background-color: #FF006E;
+	left: 0px;
 }
 
+#titulo {
+	position: absolute;
+	top: 10px;
+	left: 350px;
+}
+
+#indice { position: absolute;	
+						left: 30px;
+						top: -14px; }
 .subindice {
 						position: absolute;
 						display: inline-block;
-						margin: 20px;
 						font-family: 'Sedgwick Ave', cursive;
 						font-size: 20px;
 						background-color: black;
 						padding: 20PX	;
+						top: 30px;
 }
 	
-#iautor {margin: 7px;
-	padding: 12px ;
+#iautor {	margin: 7px;
+					padding: 12px ;
 	        padding-right: 25px;
 	        padding-left: 25px;
 					position: absolute;
-					left: 150px;
-					top: 20px;
+					left: 40px;
+					top: 35px;
 					border: 5px hidden #1C6EA4;
-border-radius: 15px;
+					border-radius: 15px;
 					
 }
 .fa-solid-fa-book-open{
 	top: 50%;
 }
 #iaproyecto {
-	        padding: 12px ;
+	        position: absolute;
+					left: 280px;
+					top: 35px;
+					padding: 12px ;
 	        padding-right: 25px;
 	        padding-left: 25px;
 					margin: 7px;
-					position: absolute;
-					left: 45%;
-					top: 16%;
+
 					border: 5px hidden #1C6EA4;
-border-radius: 15px;
+					border-radius: 15px;
+					
+}
+#irelevancia{
+					margin: 7px;
+					padding: 12px ;
+	        padding-right: 25px;
+	        padding-left: 25px;
+					position: absolute;
+					left: 448px;
+					top: 35px;
+					border: 5px hidden #1C6EA4;
+					border-radius: 15px ;
+			
+}
+
+#iconclusion {	margin: 7px;
+					padding: 12px ;
+	        padding-right: 25px;
+	        padding-left: 25px;
+					position: absolute;
+					left: 620px;
+					top: 35px;
+					border: 5px hidden #1C6EA4;
+					border-radius: 15px;
 					
 }
 #ireferencias {
@@ -253,31 +138,11 @@ border-radius: 15px;
 	        padding-right: 25px;
 	        padding-left: 25px;
 					position: absolute;
-					left: 75%;
-					top: 16%;
+					left: 800px;
+					top: 35px;
 					border: 5px hidden #1C6EA4;
 border-radius: 15px ;
 			
-}
-#título {
-				margin: 10px;
-			}
-
-.referencias {
-margin: 10px;
-top: 400%;
-position: absolute;
-background-color: white;
-left: 300px;
-right: 240px;
-padding-left: 30px;
-padding-right: 30px;
-padding-bottom: 30px;
-border: 5px hidden #1C6EA4;
-border-radius: 15px 15px 15px 15px;
-border: 5px solid #FF006E;
-border-radius: 15px;
-
 }
 
 a:link {
@@ -286,9 +151,286 @@ a:link {
 a:visited {
 	color:#FF006E
 }
-.descripcion{
-background-color: black;
+
+nav {background-color: #FF006E;
+font-family: 'Sedgwick Ave', cursive;
+margin: 2px;}
+#dautores {
+		background-color: black;
+		height: 800px;
+}
+
+
+.hipervinculos{
+text-align: center;
+}
+
+#autor {
 margin: 10px;
-color: white;
-height: 3000px;
-width: 990px;}
+height: 680px;}
+#tautor {position: absolute;
+				top: 150px;
+				left: 400px; }
+
+.titulos{
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.rubio{
+position: absolute;
+	top: 265px;
+	left: 80px;
+}
+
+.infoautor1{
+height: 215px;
+width: 570px;
+position: absolute;
+	top: 260px;
+	left: 320px;
+	border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;
+}
+
+.infoautor2{
+height: 215px;
+width: 570px;
+position: absolute;
+	top: 550px;
+	left: 80px;
+	border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;
+}
+
+.uriel{
+position: absolute;
+	top: 567px;
+	left: 712px
+}
+
+#artículo {
+margin: 10px;
+height: 450px;
+background-color: black;}
+
+#diagrama{
+	position: absolute;
+	right: 45px;
+}
+
+.linea{
+	background-color: #FF006E;
+	padding-left: 400px;
+	padding-right: 500px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	position: absolute;
+	top: 1270px;
+	left: 50px;
+}
+#sp {position: absolute;
+		left: 20px;}
+.proyecto{
+	height: 400px;
+	background-color: black;
+	position:relative ;
+}
+
+
+#autorp {
+	position: absolute;
+		left: 315px;
+		top: 40px;
+}.fotoroth{
+	position: absolute;
+	top: 150px;
+	left: 80px}
+
+.infoautor3{
+	height: 250px;
+width: 570px;
+position: absolute;
+	top: 100px;
+	left: 320px;
+	border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;	
+}
+#consiste{position: relative;}
+.consiste{
+	font-family: 'Sedgwick Ave', cursive;
+						font-size: 30px;
+						color: white;
+						position: absolute;
+						top: 0px;
+						left: 380px;
+}
+#cc{
+	height: 400px;
+	background-color: black	;
+
+}
+.lasertag{
+	font-size: 20px;
+	width: 800px;
+	left: 80px;
+	color: white;
+	position: absolute;
+	top: 70px;
+	border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;
+}
+.Rele {
+	background-color: black;
+	position: relative;
+	height: 420px;
+}
+#releva {position: absolute; 
+				left: 420px;
+}
+
+#Relevancia {
+	font-size: 20px;
+	width: 800px;
+	left: 80px;
+	color: white;
+	position: absolute;
+	top: 70px;
+	border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;}
+.vin {
+	background-color: black;
+	height: 340px;
+}
+.vin {
+	position: relative;
+}
+#Vinculacion {
+	font-size: 20px;
+	width: 800px;
+	left: 80px;
+	color: white;
+	position: absolute;
+	top: 70px;
+	border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;}
+
+#vincu {position: absolute;
+			left: 400px;
+			top: -20px;}
+
+#v1 {margin: 10px;
+top: 40px;
+position: absolute;
+left:10px;
+height: 200px;
+width: 200px;
+padding-left: 7px;
+padding-right: 7px;
+padding-bottom: 2px;
+border: 5px hidden #1C6EA4;
+border-radius: 15px;
+border: 5px solid #FF006E;
+border-radius: 15px;
+}
+
+#v2 {margin: 10px;
+top: 40px;
+position: absolute;
+left:250px;
+height: 200px;
+width: 200px;
+padding-left: 7px;
+padding-right: 7px;
+padding-bottom: 2px;
+border: 5px hidden #1C6EA4;
+border-radius: 15px;
+border: 5px solid #FF006E;
+border-radius: 15px;
+}
+
+#v3 {margin: 10px;
+top: -15px;
+position: absolute;
+left:225px;
+height: 220px;
+width: 200px;
+padding-left: 7px;
+padding-right: 7px;
+padding-bottom: 2px;
+border: 5px hidden #1C6EA4;
+border-radius: 15px;
+border: 5px solid #FF006E;
+border-radius: 15px;
+}
+
+#v4 {margin: 10px;
+top: -15px;
+position: absolute;
+Left:468px;
+height: 280px;
+width: 200px;
+padding-left: 7px;
+padding-right: 7px;
+padding-bottom: 2px;
+border: 5px hidden #1C6EA4;
+border-radius: 15px;
+border: 5px solid #FF006E;
+border-radius: 15px;
+}
+.con {position: relative;
+background-color: black;
+height: 400px;}
+#conclu {position: absolute; 
+				left: 420px;
+}
+#conclusion{
+	font-size: 20px;
+	width: 800px;
+	left: 80px;
+	color: white;
+	position: absolute;
+	top: 50px;
+	border: 5px solid #FF006E;
+border-radius: 15px;
+padding: 10px;}
+
+
+#ref{position: relative;
+background-color: blue;
+}
+
+.referencias {
+		position:absolute;
+		top: 300px;
+		left: 200px; 
+		margin: 10px;
+		width: 500px;
+		background-color: white;
+		color: black;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+		border: 5px hidden #1C6EA4;
+		border-radius: 15px 15px 15px 15px;
+		border: 5px solid #FF006E;
+		border-radius: 15px;
+		}
+section {background-color: black;
+}
+
+article {background-color: black;}
+
+
+
+		
+}
+
+
